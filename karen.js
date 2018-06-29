@@ -4,7 +4,7 @@ const config = require("./config.json"); // kita akan menaruh prefix dan token d
 
 bot.on("ready", async () => {
 	console.log(`${bot.user.username} Sudah online!`);
-	bot.user.setActivity("A Wonderfull Life", {type: "PLAY HM-"});	
+	bot.user.setActivity("HM.AWonderfullLife", {type: "PLAYING"});	
 });
 
 bot.on("message", async message => {
